@@ -1,0 +1,4 @@
+When I changed the customer number to 5 and number of checker to 5, I thought that the idle total idle time would be less than 500 but it went up to 750 with an average time of 1.70 minutes. When I then changed the number of checker to 4 the avarage waittime was still close to 1.70 minutes but the total idle time dropped to 572 minutes
+But when I changed the number of checker to 1 with still 5 customer the average wait time is 3.90 minutes but the total Idle time dropped to 30 minutes.
+That means that to keep the idle time low means to have less checker when there's less customer.
+I was surprised when I changed the customer number to 20 and checker to 5. The average low time is 1.64 minutes but the total iddle time was 756 minutes. And when I reduced the checker number to 1 the total idle times dropes to 31 minutes with the average wait time of 3.75 minutes.
